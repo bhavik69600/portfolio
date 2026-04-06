@@ -111,7 +111,7 @@ export default function Hero() {
 
             <Magnetic>
               <a
-                href="/resume.pdf"
+                href="/Resume Bhavin.pdf"
                 target="_blank"
                 download
                 className="group relative flex items-center gap-4 px-10 py-6 bg-primary rounded-2xl font-black text-lg transition-all hover:neon-glow hover:scale-105 active:scale-95 text-background"
