@@ -14,6 +14,11 @@ export const metadata: Metadata = {
     default: 'Rajput Bhavin | Full Stack Developer & SaaS Specialist',
     template: '%s | Rajput Bhavin'
   },
+  icons: {
+    icon: '/icon.svg',
+    apple: '/icon.svg',
+  },
+
 
   description: 'Rajput Bhavin is a specialized Software Developer based in Ahmedabad, focusing on SaaS applications, Web Automation, and Full Stack Development.',
   keywords: [
