@@ -7,7 +7,8 @@ import { ArrowUpRight } from 'lucide-react';
 export default function About() {
   return (
     <Section id="about" className="py-20 md:py-40">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-24 items-start px-2">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-24 items-start">
+
         
         {/* Left Side: Large Text & Stats */}
         <div className="lg:col-span-12 xl:col-span-7 space-y-12">

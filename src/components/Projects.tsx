@@ -52,19 +52,21 @@ const projects = [
 export default function Projects() {
   return (
     <Section id="projects" className="py-20 md:py-32">
-      <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-16 md:mb-20 gap-8 px-2">
+      <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-16 md:mb-20 gap-8">
         <div className="space-y-4">
           <h2 className="text-[10px] md:text-xs font-black tracking-[0.4em] text-primary uppercase">Rajput Bhavin Projects</h2>
-          <h3 className="text-3xl md:text-6xl font-black text-white leading-tight">Featured <span className="text-gradient">Work</span></h3>
+          <h3 className="text-3xl md:text-5xl font-black text-white leading-tight">Featured <span className="text-gradient">Work</span></h3>
         </div>
         <p className="max-w-md text-foreground/70 text-base md:text-lg font-medium leading-relaxed">
+
           Crafting high-performance SaaS solutions and modern web apps as Rajput Bhavin, Full Stack Developer.
         </p>
 
       </div>
 
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
         {projects.map((project, index) => (
           <motion.div
             key={project.title}

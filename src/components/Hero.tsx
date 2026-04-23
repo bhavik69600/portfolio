@@ -116,16 +116,16 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="flex flex-wrap items-center gap-6 md:gap-10"
+          className="flex flex-wrap items-center gap-4 md:gap-10"
         >
-          <div className="flex flex-wrap gap-5">
+          <div className="flex flex-wrap gap-4 md:gap-5 w-full md:w-auto">
             <Magnetic>
               <a
                 href="#projects"
-                className="group relative flex items-center gap-4 px-10 py-6 glass rounded-2xl font-black text-lg transition-all hover:neon-border overflow-hidden"
+                className="group relative flex flex-1 items-center justify-center gap-3 px-6 py-4 md:px-10 md:py-6 glass rounded-2xl font-black text-sm md:text-lg transition-all hover:neon-border overflow-hidden min-w-[160px]"
               >
-                <span className="relative z-10 text-white/80 group-hover:text-white uppercase tracking-widest">View Work</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform relative z-10" />
+                <span className="relative z-10 text-white/80 group-hover:text-white uppercase tracking-widest text-[10px] md:text-sm">View Work</span>
+                <ArrowRight className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-2 transition-transform relative z-10" />
                 <div className="absolute inset-0 bg-white/5 translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
               </a>
             </Magnetic>
@@ -135,14 +135,14 @@ export default function Hero() {
                 href="/Resume Bhavin.pdf"
                 target="_blank"
                 download
-                className="group relative flex items-center gap-4 px-10 py-6 bg-primary rounded-2xl font-black text-lg transition-all hover:neon-glow hover:scale-105 active:scale-95 text-black"
+                className="group relative flex flex-1 items-center justify-center gap-3 px-6 py-4 md:px-10 md:py-6 bg-primary rounded-2xl font-black text-sm md:text-lg transition-all hover:neon-glow hover:scale-105 active:scale-95 text-black min-w-[160px]"
               >
-                <FileDown className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-                DOWNLOAD CV
+                <FileDown className="w-4 h-4 md:w-5 md:h-5 group-hover:rotate-12 transition-transform" />
+                <span className="uppercase tracking-widest text-[10px] md:text-sm">DOWNLOAD CV</span>
               </a>
-
             </Magnetic>
           </div>
+
 
           <div className="flex items-center gap-6">
             <Magnetic>
