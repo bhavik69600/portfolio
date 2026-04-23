@@ -48,60 +48,30 @@ export default function MagneticCursor() {
   if (isHidden) return null;
 
   return (
-    <>
-      {/* Outer ring — soft trail */}
+    <motion.div
+      className="fixed top-0 left-0 pointer-events-none z-[9999]"
+      style={{
+        x: springX,
+        y: springY,
+        translateX: '-50%',
+        translateY: '-50%',
+      }}
+    >
       <motion.div
-        className="fixed top-0 left-0 pointer-events-none z-[9999] mix-blend-screen"
-        style={{
-          x: trailX,
-          y: trailY,
-          translateX: '-50%',
-          translateY: '-50%',
+        animate={{
+          width: isPointer ? 10 : 6,
+          height: isPointer ? 10 : 6,
+          backgroundColor: isPointer ? '#ffffff' : 'var(--dyn-primary, #3b82f6)',
         }}
-      >
-        <motion.div
-          animate={{
-            width: isPointer ? 56 : 36,
-            height: isPointer ? 56 : 36,
-            borderColor: isPointer
-              ? 'rgba(168, 85, 247, 0.8)'
-              : 'rgba(59, 130, 246, 0.5)',
-          }}
-          transition={{ type: 'spring', stiffness: 200, damping: 20 }}
-          className="rounded-full border-2 flex items-center justify-center"
-          style={{
-            boxShadow: isPointer
-              ? '0 0 20px rgba(168,85,247,0.4)'
-              : '0 0 12px rgba(59,130,246,0.3)',
-          }}
-        />
-      </motion.div>
-
-      {/* Inner dot — snappy */}
-      <motion.div
-        className="fixed top-0 left-0 pointer-events-none z-[9999]"
+        transition={{ type: 'spring', stiffness: 450, damping: 28 }}
+        className="rounded-full shadow-lg"
         style={{
-          x: springX,
-          y: springY,
-          translateX: '-50%',
-          translateY: '-50%',
+          boxShadow: isPointer
+            ? '0 0 15px rgba(255,255,255,0.8)'
+            : '0 0 10px rgba(59,130,246,0.6)',
         }}
-      >
-        <motion.div
-          animate={{
-            width: isPointer ? 8 : 6,
-            height: isPointer ? 8 : 6,
-            backgroundColor: isPointer ? '#a855f7' : '#3b82f6',
-          }}
-          transition={{ type: 'spring', stiffness: 400, damping: 25 }}
-          className="rounded-full"
-          style={{
-            boxShadow: isPointer
-              ? '0 0 10px rgba(168,85,247,0.9)'
-              : '0 0 8px rgba(59,130,246,0.9)',
-          }}
-        />
-      </motion.div>
-    </>
+      />
+    </motion.div>
   );
 }
+
