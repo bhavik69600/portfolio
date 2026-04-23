@@ -17,14 +17,26 @@ export const metadata: Metadata = {
 
   description: 'Rajput Bhavin is a specialized Software Developer based in Ahmedabad, focusing on SaaS applications, Web Automation, and Full Stack Development.',
   keywords: [
-    'Rajput Bhavin', 'Bhavin Rajput', 'Bhavik Rajput', 'Rajput Bhavik',
-    'Bhau', 'Bhavin', 'Bhavik', 'Bhau Developer', 'Bhavik Developer',
-    'Rajput bhau', 'Bhavin bhau', 'Bhavik bhau', 'Amdavadi Developer',
-    'Rajput Bhavin Singh', 'Software Developer Bhavin', 'Full Stack Developer Bhavin', 
-    'Programmer Bhavin', 'Bhavin Developer Ahmedabad', 'SaaS Developer India', 
-    'Web Developer Bhavin', 'Node.js Developer Bhavin', 'React Developer Bhavin', 
-    'Portfolio Bhavin Rajput', 'Rajput Portfolio', 'Best Developer in Ahmedabad'
+    'Rajput Bhavin', 'Bhavin Rajput', 'Rajput Bhavin Singh', 'Bhavin Singh Rajput', 'Bhavik Rajput', 'Rajput Bhavinsingh',
+    'Bhavin Rajput Developer', 'Rajput Bhavin Developer', 'Bhavin Software Developer', 'Rajput Bhavin Software Developer',
+    'Full Stack Developer Bhavin', 'Software Developer Bhavin', 'Web Developer Bhavin', 'Programmer Bhavin',
+    'Frontend Developer Bhavin', 'Backend Developer Bhavin', 'MERN Developer Bhavin', 'Node.js Developer Bhavin',
+    'React Developer Bhavin', 'JavaScript Developer Bhavin', 'Bhavin Developer Ahmedabad', 'Rajput Bhavin Ahmedabad',
+    'Software Developer Ahmedabad Bhavin', 'Full Stack Developer Ahmedabad India', 'Web Developer Ahmedabad Gujarat',
+    'Bhavin Rajput India Developer', 'Indian Developer Bhavin', 'SaaS Developer Bhavin', 'SaaS Builder India Bhavin',
+    'Web App Developer Bhavin', 'Automation Developer Bhavin', 'API Developer Bhavin', 'Backend API Developer Bhavin',
+    'Scalable Web Apps Bhavin', 'Bhavin Rajput Portfolio', 'Rajput Bhavin Portfolio Website', 'Bhavin Developer Portfolio',
+    'Bhavin Rajput Personal Website', 'Rajput Bhavin Official Website', 'Bhavin Rajput Vercel Portfolio',
+    'Rajput Bhavin Full Stack Developer Portfolio', 'Bhavin Rajput Software Developer India', 'Best Developer Bhavin Rajput Ahmedabad',
+    'Hire Bhavin Rajput Developer', 'Freelance Developer Bhavin Rajput', 'SaaS Developer Rajput Bhavin India',
+    'Freelance Developer India', 'Freelance Developer Ahmedabad', 'Freelance Software Developer', 'Freelance Web Developer',
+    'Freelance Full Stack Developer', 'Freelance MERN Developer', 'Freelance Node.js Developer', 'Freelance React Developer',
+    'Hire Freelance Developer', 'Best Freelance Developer', 'Top Freelance Developer', 'Expert Freelance Developer',
+    'Software Developer India', 'Software Developer Ahmedabad', 'Full Stack Developer India', 'Full Stack Developer Ahmedabad',
+    'Web Developer India', 'Web Developer Ahmedabad', 'MERN Stack Developer', 'Node.js Developer', 'React Developer',
+    'SaaS Developer', 'Automation Developer', 'Startup Developer', 'Custom Web App Developer', 'Portfolio Developer'
   ],
+
 
 
   authors: [{ name: 'Rajput Bhavin' }],
