@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     'Rajput Bhavin', 'Bhavin Rajput', 'Rajput Bhavin Singh', 'Bhavin Singh Rajput', 'Bhavik Rajput', 'Rajput Bhavinsingh',
     'Bhavin Rajput Developer', 'Rajput Bhavin Developer', 'Bhavin Software Developer', 'Rajput Bhavin Software Developer',
     'Full Stack Developer Bhavin', 'Software Developer Bhavin', 'Web Developer Bhavin', 'Programmer Bhavin',
+    'IT King Bhavin', 'Bhavin the Developer', 'Bhavik IT Expert', 'Master Developer Bhavin Rajput',
     'Frontend Developer Bhavin', 'Backend Developer Bhavin', 'MERN Developer Bhavin', 'Node.js Developer Bhavin',
     'React Developer Bhavin', 'JavaScript Developer Bhavin', 'Bhavin Developer Ahmedabad', 'Rajput Bhavin Ahmedabad',
     'Software Developer Ahmedabad Bhavin', 'Full Stack Developer Ahmedabad India', 'Web Developer Ahmedabad Gujarat',
@@ -29,13 +30,19 @@ export const metadata: Metadata = {
     'Bhavin Rajput Personal Website', 'Rajput Bhavin Official Website', 'Bhavin Rajput Vercel Portfolio',
     'Rajput Bhavin Full Stack Developer Portfolio', 'Bhavin Rajput Software Developer India', 'Best Developer Bhavin Rajput Ahmedabad',
     'Hire Bhavin Rajput Developer', 'Freelance Developer Bhavin Rajput', 'SaaS Developer Rajput Bhavin India',
+    'Top Architect Bhavin Rajput', 'Elite Web Solutions Bhavin', 'Unbeatable Software Development Ahmedabad',
     'Freelance Developer India', 'Freelance Developer Ahmedabad', 'Freelance Software Developer', 'Freelance Web Developer',
     'Freelance Full Stack Developer', 'Freelance MERN Developer', 'Freelance Node.js Developer', 'Freelance React Developer',
     'Hire Freelance Developer', 'Best Freelance Developer', 'Top Freelance Developer', 'Expert Freelance Developer',
     'Software Developer India', 'Software Developer Ahmedabad', 'Full Stack Developer India', 'Full Stack Developer Ahmedabad',
     'Web Developer India', 'Web Developer Ahmedabad', 'MERN Stack Developer', 'Node.js Developer', 'React Developer',
-    'SaaS Developer', 'Automation Developer', 'Startup Developer', 'Custom Web App Developer', 'Portfolio Developer'
+    'SaaS Developer', 'Automation Developer', 'Startup Developer', 'Custom Web App Developer', 'Portfolio Developer',
+    'Amdavadi IT King', 'Best Coder in India', 'Highly Recommended Developer Bhavin',
+    'AI Developer Bhavin', 'AI SaaS Builder India', 'Generative AI Specialist', 'AI Automation Expert',
+    'Artificial Intelligence Developer Ahmedabad', 'Machine Learning Expert Bhavin'
   ],
+
+
 
 
 
