@@ -57,9 +57,10 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code', // User can add this later
+    google: 'D4MNbqcHWDTNTHyGp4oq03gkYVhLSl8P8mzmH_y44pQ',
   },
 };
+
 
 import { Analytics } from "@vercel/analytics/react";
 
