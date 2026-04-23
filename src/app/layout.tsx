@@ -9,10 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://portfoliobhavin.vercel.app'),
   title: {
     default: 'Rajput Bhavin | Full Stack Developer & SaaS Specialist',
     template: '%s | Rajput Bhavin'
   },
+
   description: 'Rajput Bhavin is a specialized Software Developer based in Ahmedabad, focusing on SaaS applications, Web Automation, and Full Stack Development.',
   keywords: [
     'Rajput Bhavin', 'Bhavin Rajput', 'Bhavik Rajput', 'Rajput Bhavik',
