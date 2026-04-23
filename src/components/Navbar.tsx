@@ -109,32 +109,32 @@ export default function Navbar() {
               className="absolute top-0 right-0 bottom-0 w-[85%] bg-[#050505] border-l border-white/5 flex flex-col shadow-2xl"
             >
               {/* Menu Header */}
-              <div className="flex items-center justify-between p-6 border-b border-white/5">
-                <span className="text-lg font-black tracking-widest text-primary uppercase">Menu</span>
+              <div className="flex items-center justify-between p-5 border-b border-white/5">
+                <span className="text-xs font-black tracking-[0.4em] text-white/30 uppercase">Navigate</span>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="p-2 text-white/50 hover:text-white"
                 >
-                  <X className="w-8 h-8" />
+                  <X className="w-6 h-6" />
                 </button>
               </div>
 
               {/* Navigation Links */}
-              <div className="flex-1 overflow-y-auto py-10 px-8 flex flex-col gap-4">
+              <div className="flex-1 overflow-y-auto py-8 px-8 flex flex-col gap-2">
                 {navLinks.map((link, i) => (
                   <motion.div
                     key={link.name}
-                    initial={{ opacity: 0, x: 20 }}
+                    initial={{ opacity: 0, x: 10 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: i * 0.05 }}
+                    transition={{ delay: i * 0.04 }}
                   >
                     <Link
                       href={link.href}
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="text-3xl font-black text-white/90 hover:text-primary transition-all flex items-center justify-between group"
+                      className="text-xl font-bold text-white/70 hover:text-primary transition-all flex items-center justify-between py-3 group border-b border-white/[0.03]"
                     >
-                      <span className="uppercase tracking-tighter">{link.name}</span>
-                      <ArrowRight className="w-6 h-6 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-primary" />
+                      <span className="uppercase tracking-tight">{link.name}</span>
+                      <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-primary" />
                     </Link>
                   </motion.div>
                 ))}
@@ -142,14 +142,15 @@ export default function Navbar() {
 
               {/* Mobile Footer */}
               <div className="p-8 border-t border-white/5 bg-white/[0.01]">
-                <div className="flex flex-col gap-4">
-                  <p className="text-[10px] font-black text-white/30 uppercase tracking-[0.4em]">Rajput Bhavin</p>
-                  <div className="flex gap-6">
-                    <a href="https://github.com/bhavik69600/" className="text-xs font-bold text-white/60 hover:text-primary transition-colors">GITHUB</a>
-                    <a href="https://linkedin.com/in/rajput-bhavin-9512a028a" className="text-xs font-bold text-white/60 hover:text-primary transition-colors">LINKEDIN</a>
+                <div className="flex flex-col gap-3">
+                  <p className="text-[9px] font-black text-white/20 uppercase tracking-[0.4em]">Rajput Bhavin Portfolio</p>
+                  <div className="flex gap-5">
+                    <a href="https://github.com/bhavik69600/" className="text-[10px] font-bold text-white/40 hover:text-primary transition-colors uppercase tracking-widest">GitHub</a>
+                    <a href="https://linkedin.com/in/rajput-bhavin-9512a028a" className="text-[10px] font-bold text-white/40 hover:text-primary transition-colors uppercase tracking-widest">LinkedIn</a>
                   </div>
                 </div>
               </div>
+
             </motion.div>
           </div>
         )}
