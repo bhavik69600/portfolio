@@ -49,12 +49,13 @@ export default function Workflow() {
             transition={{ delay: i * 0.1 }}
             className="glass p-8 md:p-10 rounded-[32px] border border-white/5 relative group hover:neon-border transition-all duration-500"
           >
-             <div className="absolute top-0 right-0 p-8 text-4xl font-black text-white/[0.03] italic">0{i+1}</div>
+             <div aria-hidden="true" className="absolute top-0 right-0 p-8 text-4xl font-black text-white/[0.08] italic">0{i+1}</div>
              <div className={`w-14 h-14 rounded-2xl bg-white/5 border border-white/5 flex items-center justify-center mb-6 ${step.color}`}>
                 <step.icon className="w-7 h-7" />
              </div>
              <h4 className="text-xl font-black text-white mb-3 group-hover:text-primary transition-colors">{step.title}</h4>
-             <p className="text-sm font-medium text-white/40 leading-relaxed">{step.desc}</p>
+             <p className="text-sm font-medium text-white/70 leading-relaxed">{step.desc}</p>
+
           </motion.div>
         ))}
       </div>

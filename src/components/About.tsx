@@ -58,17 +58,18 @@ export default function About() {
           >
             <div>
               <h4 className="text-3xl md:text-6xl font-black text-white mb-2 tracking-tighter">8+</h4>
-              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-primary/70">SaaS Products</p>
+              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-primary">SaaS Products</p>
             </div>
             <div>
               <h4 className="text-3xl md:text-6xl font-black text-white mb-2 tracking-tighter">200+</h4>
-              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-secondary/70">Deployments</p>
+              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-secondary">Deployments</p>
             </div>
             <div>
               <h4 className="text-3xl md:text-6xl font-black text-white mb-2 tracking-tighter">12</h4>
-              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-accent/70">Months Experience</p>
+              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-accent">Months Experience</p>
             </div>
           </motion.div>
+
         </div>
 
         {/* Right Side: Featured Experience Card */}
@@ -99,11 +100,12 @@ export default function About() {
             </div>
 
             <div className="mt-10 pt-8 border-t border-white/5">
-              <p className="text-xs md:text-sm text-white/60 italic leading-relaxed">
+              <p className="text-xs md:text-sm text-white/80 italic leading-relaxed">
                 "Rajput Bhavin believes that high-performance code combined with elite design creates 
                 unbeatable user experiences."
               </p>
             </div>
+
           </motion.div>
         </div>
       </div>

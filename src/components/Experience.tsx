@@ -41,22 +41,23 @@ export default function Experience() {
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
               <div>
                 <h3 className="text-xl font-bold text-white group-hover:text-primary transition-colors">{exp.title}</h3>
-                <p className="text-white/40">{exp.company}</p>
+                <p className="text-white/70">{exp.company}</p>
               </div>
               <span className="text-sm font-black text-primary px-4 py-1.5 glass rounded-full border border-primary/20">
                 {exp.period}
               </span>
             </div>
-            <p className="text-white/50 leading-relaxed mb-6">
+            <p className="text-white/80 leading-relaxed mb-6">
               {exp.description}
             </p>
             <div className="flex flex-wrap gap-2">
               {exp.tags.map(tag => (
-                <span key={tag} className="text-[10px] uppercase font-black tracking-widest text-white/30 px-3 py-1 glass rounded-md">
+                <span key={tag} className="text-[10px] uppercase font-black tracking-widest text-white/60 px-3 py-1 glass rounded-md">
                   {tag}
                 </span>
               ))}
             </div>
+
           </motion.div>
         ))}
       </div>
