@@ -86,6 +86,7 @@ export const metadata: Metadata = {
 };
 
 
+import Navbar from "@/components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -130,6 +131,8 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} antialiased bg-black text-foreground noise relative`}>
         <div className="bg-mesh pointer-events-none" />
+        <Navbar />
+
 
         <ClientProviders>
           {children}
@@ -141,4 +144,3 @@ export default function RootLayout({
 
   );
 }
-
