@@ -59,6 +59,8 @@ export const metadata: Metadata = {
   },
 };
 
+import { Analytics } from "@vercel/analytics/react";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -86,7 +88,6 @@ export default function RootLayout({
       "https://www.linkedin.com/in/rajput-bhavin-9512a028a"
     ],
     "description": "Rajput Bhavin is an expert Software Developer specializing in SaaS development, Web Apps, and Automation logic."
-
   };
 
   return (
@@ -104,7 +105,9 @@ export default function RootLayout({
         <ClientProviders>
           {children}
         </ClientProviders>
+        <Analytics />
       </body>
     </html>
   );
 }
+
