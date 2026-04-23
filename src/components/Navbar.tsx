@@ -79,64 +79,68 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
-          <>
-            {/* Backdrop for minimalist focus */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="fixed inset-0 z-40 bg-black/60 backdrop-blur-md md:hidden"
-            />
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="md:hidden fixed inset-0 z-[100] bg-black flex flex-col"
+          >
+            {/* Mobile Menu Header */}
+            <div className="flex items-center justify-between py-6 px-6 border-b border-white/5">
+              <span className="text-xl font-bold tracking-tighter text-white">
+                BHAVIN<span className="text-primary">.</span>
+              </span>
+              <button
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="p-2 text-white hover:text-primary transition-colors"
+              >
+                <X className="w-8 h-8" />
+              </button>
+            </div>
 
-            <motion.div
-              initial={{ x: '100%' }}
-              animate={{ x: 0 }}
-              exit={{ x: '100%' }}
-              transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className="fixed top-0 right-0 bottom-0 w-[80%] z-50 bg-black/90 border-l border-white/5 p-8 md:hidden flex flex-col"
-            >
-              <div className="flex items-center justify-between mb-12">
-                <span className="text-sm font-black tracking-[0.3em] text-white/20 uppercase">Navigation</span>
-                <button
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="p-2 text-white/50 hover:text-white"
+            {/* Menu Links */}
+            <div className="flex-1 flex flex-col items-center justify-center gap-6 p-6">
+              {navLinks.map((link, i) => (
+                <motion.div
+                  key={link.name}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: i * 0.05 }}
+                  className="w-full text-center"
                 >
-                  <X className="w-6 h-6" />
-                </button>
-              </div>
-
-              <div className="flex flex-col gap-6">
-                {navLinks.map((link, i) => (
-                  <motion.div
-                    key={link.name}
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: i * 0.05 }}
+                  <Link
+                    href={link.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="text-4xl font-black text-white hover:text-primary transition-all active:scale-90 inline-block uppercase tracking-tighter"
                   >
-                    <Link
-                      href={link.href}
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className="text-2xl font-bold text-white/80 hover:text-primary transition-all flex items-center justify-between group"
-                    >
-                      {link.name}
-                      <ArrowRight className="w-5 h-5 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-primary" />
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
+                    {link.name}
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
 
-              <div className="mt-auto pt-8 border-t border-white/5">
-                <p className="text-[10px] font-black text-white/20 uppercase tracking-widest mb-4">Social Presence</p>
-                <div className="flex gap-4">
-                  <a href="https://github.com/bhavik69600/" className="text-white/40 hover:text-white text-xs">GitHub</a>
-                  <a href="https://linkedin.com/in/rajput-bhavin-9512a028a" className="text-white/40 hover:text-white text-xs">LinkedIn</a>
-                </div>
+            {/* Mobile Menu Footer */}
+            <div className="p-10 border-t border-white/5 bg-white/[0.02]">
+              <p className="text-[10px] font-black text-white/40 uppercase tracking-[0.4em] mb-6 text-center">Let's Connect</p>
+              <div className="grid grid-cols-2 gap-4">
+                <a 
+                  href="https://github.com/bhavik69600/" 
+                  className="flex items-center justify-center gap-2 py-4 glass rounded-xl text-xs font-bold text-white/70 hover:text-white"
+                >
+                  GITHUB
+                </a>
+                <a 
+                  href="https://linkedin.com/in/rajput-bhavin-9512a028a" 
+                  className="flex items-center justify-center gap-2 py-4 glass rounded-xl text-xs font-bold text-white/70 hover:text-white"
+                >
+                  LINKEDIN
+                </a>
               </div>
-            </motion.div>
-          </>
+            </div>
+          </motion.div>
         )}
       </AnimatePresence>
+
 
     </nav>
   );
