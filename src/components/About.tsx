@@ -88,21 +88,21 @@ export default function About() {
               <div className="relative pl-6 before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-primary">
                 <p className="text-[10px] font-black text-primary uppercase tracking-widest mb-1">Developer Education</p>
                 <h5 className="text-base md:text-lg font-bold text-white">BCA Software Engineering</h5>
-                <p className="text-xs md:text-sm text-white/40">Focused on Advanced Logic & Systems</p>
+                <p className="text-xs md:text-sm text-white/60">Focused on Advanced Logic & Systems</p>
               </div>
               <div className="relative pl-6 before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-secondary">
                 <p className="text-[10px] font-black text-secondary uppercase tracking-widest mb-1">Ahmedabad Developer Community</p>
                 <h5 className="text-base md:text-lg font-bold text-white">Full Stack Web Architecture</h5>
-                <p className="text-xs md:text-sm text-white/40">SaaS & Automation Expert</p>
+                <p className="text-xs md:text-sm text-white/80">SaaS & Automation Expert</p>
               </div>
+
             </div>
 
             <div className="mt-10 pt-8 border-t border-white/5">
-              <p className="text-xs md:text-sm text-white/30 italic leading-relaxed">
+              <p className="text-xs md:text-sm text-white/60 italic leading-relaxed">
                 "Rajput Bhavin believes that high-performance code combined with elite design creates 
                 unbeatable user experiences."
               </p>
-
             </div>
           </motion.div>
         </div>

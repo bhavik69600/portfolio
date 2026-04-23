@@ -102,12 +102,13 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
-            className="max-w-2xl text-white/40 text-sm md:text-lg leading-relaxed font-medium"
+            className="max-w-2xl text-white/70 text-sm md:text-lg leading-relaxed font-medium"
           >
             Crafting elite SaaS applications and high-performance Web Automation tools. 
             <strong> Rajput Bhavin</strong> is a specialized Full Stack Developer based in 
             Ahmedabad, helping brands transform ideas into scalable digital products.
           </motion.p>
+
 
         </div>
 
@@ -134,11 +135,12 @@ export default function Hero() {
                 href="/Resume Bhavin.pdf"
                 target="_blank"
                 download
-                className="group relative flex items-center gap-4 px-10 py-6 bg-primary rounded-2xl font-black text-lg transition-all hover:neon-glow hover:scale-105 active:scale-95 text-background"
+                className="group relative flex items-center gap-4 px-10 py-6 bg-primary rounded-2xl font-black text-lg transition-all hover:neon-glow hover:scale-105 active:scale-95 text-black"
               >
                 <FileDown className="w-5 h-5 group-hover:rotate-12 transition-transform" />
                 DOWNLOAD CV
               </a>
+
             </Magnetic>
           </div>
 

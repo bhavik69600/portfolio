@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌌 RAJPUT BHAVIN
 
-## Getting Started
+### **Full Stack Architect | SaaS Specialist | Automation Expert**
 
-First, run the development server:
+> "Code is not just logic; it's a medium of storytelling through high-performance engineering."
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ⚡ THE ARSENAL
+I don't just write code; I build digital empires. Specializing in high-availability systems and pixel-perfect interfaces.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| **CATEGORY** | **TECHNOLOGIES** |
+| :--- | :--- |
+| **Frontend** | React, Next.js, Tailwind CSS, Framer Motion, Three.js |
+| **Backend** | Node.js, Express, Python, Django, REST APIs |
+| **Database** | MongoDB, PostgreSQL, MySQL, Supabase, Firebase |
+| **DevOps** | Docker, Git, Vercel, CI/CD, AWS |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 🚀 IMPACT LAB
+A glimpse into the high-performance products I've shipped:
 
-To learn more about Next.js, take a look at the following resources:
+*   **Medicare AI**: Revolutionizing hospital automation with intelligent scheduling.
+*   **SaaS Real Estate**: Scalable property ecosystems with zero-lag interfaces.
+*   **Elite Data Scraping**: Advanced web automation for real-time market data.
+*   **Security Gate Logic**: Mobile-first security architectures for high-traffic environments.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔥 THE VIBE
+Known as **Bhau** in the community, I bridge the gap between complex backend logic and stunning UI animations. Based in **Ahmedabad**, building for the **World**.
 
-## Deploy on Vercel
+*   🔭 Currently building **Next-Gen SaaS** solutions.
+*   ⚡ Expert in **Web Automation & Bot Logic**.
+*   🎨 Obsessed with **Premium Typography & Dark Mode**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 📬 CONNECT WITH RAJPUT BHAVIN
+Ready to build something legendary?
+
+[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/bhavik69600/)
+[<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/rajput-bhavin-9512a028a)
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer" width="100%" />
+</p>

@@ -57,9 +57,10 @@ export default function Projects() {
           <h2 className="text-[10px] md:text-xs font-black tracking-[0.4em] text-primary uppercase">Rajput Bhavin Projects</h2>
           <h3 className="text-3xl md:text-6xl font-black text-white leading-tight">Featured <span className="text-gradient">Work</span></h3>
         </div>
-        <p className="max-w-md text-foreground/40 text-base md:text-lg font-medium leading-relaxed">
+        <p className="max-w-md text-foreground/70 text-base md:text-lg font-medium leading-relaxed">
           Crafting high-performance SaaS solutions and modern web apps as Rajput Bhavin, Full Stack Developer.
         </p>
+
       </div>
 
 
@@ -82,17 +83,18 @@ export default function Projects() {
                   <h4 className="text-xl md:text-3xl font-black text-white leading-tight tracking-tighter group-hover:text-primary transition-colors line-clamp-1">
                     {project.title}
                   </h4>
-                  <p className="text-sm md:text-base text-white/50 font-medium leading-relaxed mt-4">
+                  <p className="text-sm md:text-base text-white/70 font-medium leading-relaxed mt-4">
                     {project.description}
                   </p>
                 </div>
                 
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map(t => (
-                    <span key={t} className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white/40 bg-white/5 px-3 py-1 rounded-full border border-white/5">
+                    <span key={t} className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white/60 bg-white/5 px-3 py-1 rounded-full border border-white/5">
                       {t}
                     </span>
                   ))}
+
                 </div>
               </div>
             </div>
