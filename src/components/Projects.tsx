@@ -2,56 +2,49 @@
 
 import Section from './Section';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Code2, Database, Search, ShieldCheck, Users, Briefcase } from 'lucide-react';
-import Magnetic from './Magnetic';
+import { Code2, Database, Search, ShieldCheck, Users, Briefcase } from 'lucide-react';
 
 const projects = [
   {
     title: 'Medicare AI System',
-    description: 'Developed an AI-based hospital automation system with chatbot appointment booking using React.js and Node.js.',
-    tech: ['React.js', 'Node.js', 'AI', 'Chatbot'],
+    description: 'Developed by Rajput Bhavin, this AI-based hospital automation system uses React.js and Node.js for elite appointment management.',
+    tech: ['React.js', 'Node.js', 'AI', 'SaaS'],
     icon: ShieldCheck,
-    links: { github: '#', live: '#' },
     color: 'text-blue-400'
   },
   {
     title: 'Real Estate Platform',
-    description: 'Developed a dynamic property listing system using React.js, Node.js, and MongoDB with user interaction and database integration.',
-    tech: ['MERN Stack', 'Redux', 'Cloudinary'],
+    description: 'A dynamic property system architected by Rajput Bhavin using the MERN Stack, focusing on seamless database integration and scalability.',
+    tech: ['MERN Stack', 'Redux', 'MongoDB'],
     icon: Briefcase,
-    links: { github: '#', live: '#' },
     color: 'text-purple-400'
   },
   {
     title: 'Places Data Scraper',
-    description: 'Built a real-time data extraction tool using React.js and Node.js to fetch business details with keyword-based search and CSV export.',
-    tech: ['Node.js', 'Puppeteer', 'React', 'CSV'],
+    description: 'A specialized Web Automation tool by Rajput Bhavin for real-time extraction using Node.js and Puppeteer with CSV exports.',
+    tech: ['Node.js', 'Automation', 'Puppeteer', 'Logic'],
     icon: Search,
-    links: { github: '#', live: '#' },
     color: 'text-emerald-400'
   },
   {
     title: 'Security Gate App',
-    description: 'Built a visitor and security request management app using Kotlin with Supabase database and Firebase integration.',
-    tech: ['Kotlin', 'Supabase', 'Firebase', 'Native'],
+    description: 'Custom mobile architecture by Rajput Bhavin using Kotlin and Supabase for high-security visitor request management.',
+    tech: ['Kotlin', 'Supabase', 'Firebase', 'Security'],
     icon: Code2,
-    links: { github: '#', live: '#' },
     color: 'text-orange-400'
   },
   {
     title: 'Employee System',
-    description: 'Created a full-stack web application with React, Node.js, Express, MongoDB implementing CRUD operations and REST APIs.',
-    tech: ['MERN Stack', 'JWT', 'REST API'],
+    description: 'A full-stack CRUD application by Rajput Bhavin featuring secure JWT Authentication and optimized REST API structures.',
+    tech: ['MERN Stack', 'JWT', 'REST API', 'Auth'],
     icon: Users,
-    links: { github: '#', live: '#' },
     color: 'text-cyan-400'
   },
   {
     title: 'Visa Consultancy',
-    description: 'Designed and developed a responsive visa consultancy platform using React.js and Node.js for client interaction.',
-    tech: ['React.js', 'Node.js', 'Responsive Design'],
+    description: 'Responsive web platform engineered by Rajput Bhavin for efficient consultancy client interaction and data handling.',
+    tech: ['React.js', 'Node.js', 'Responsive', 'UX'],
     icon: Database,
-    links: { github: '#', live: '#' },
     color: 'text-amber-400'
   }
 ];
@@ -61,13 +54,14 @@ export default function Projects() {
     <Section id="projects" className="py-20 md:py-32">
       <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-16 md:mb-20 gap-8 px-2">
         <div className="space-y-4">
-          <h2 className="text-[10px] md:text-xs font-black tracking-[0.4em] text-primary uppercase">Portfolio</h2>
-          <h3 className="text-3xl md:text-6xl font-black text-white leading-tight">Featured <span className="text-gradient">Projects</span></h3>
+          <h2 className="text-[10px] md:text-xs font-black tracking-[0.4em] text-primary uppercase">Rajput Bhavin Projects</h2>
+          <h3 className="text-3xl md:text-6xl font-black text-white leading-tight">Featured <span className="text-gradient">Work</span></h3>
         </div>
         <p className="max-w-md text-foreground/40 text-base md:text-lg font-medium leading-relaxed">
-          Crafting high-performance digital solutions with modern tech stacks and clean code.
+          Crafting high-performance SaaS solutions and modern web apps as Rajput Bhavin, Full Stack Developer.
         </p>
       </div>
+
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-2">
         {projects.map((project, index) => (
@@ -85,7 +79,7 @@ export default function Projects() {
                   <project.icon className="w-6 h-6 md:w-8 md:h-8" />
                 </div>
                 <div>
-                  <h4 className="text-xl md:text-3xl font-black text-white leading-tight tracking-tighter group-hover:text-primary transition-colors">
+                  <h4 className="text-xl md:text-3xl font-black text-white leading-tight tracking-tighter group-hover:text-primary transition-colors line-clamp-1">
                     {project.title}
                   </h4>
                   <p className="text-sm md:text-base text-white/50 font-medium leading-relaxed mt-4">
@@ -102,7 +96,6 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-
           </motion.div>
         ))}
       </div>

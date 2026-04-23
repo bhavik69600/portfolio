@@ -5,25 +5,18 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    title: 'Full Stack Developer intern',
-    company: 'Connect BLACKBOX AI',
-    period: 'Mar 2024 — June 2024',
-    description: 'Developed and optimized client-side and server-side features for a leading AI startup. Integrated OpenAI and Google Gemini APIs for smart automation.',
-    tags: ['React', 'Node.js', 'AI Integration'],
+    title: 'Full Stack Developer Intern',
+    company: 'Vassu Infotech',
+    period: '6 Months',
+    description: 'Developed and maintained full-stack web applications. Built and integrated REST APIs for frontend-backend communication. Worked on real-world projects including web applications and automation systems. Collaborated on debugging, performance optimization, and feature development.',
+    tags: ['MERN Stack', 'REST APIs', 'Cloud Architecture'],
   },
   {
-    title: 'Management Intern',
-    company: 'NIFM',
-    period: 'Dec 2023 — Mar 2024',
-    description: 'Handled project coordination and operational workflows for financial services monitoring and data reporting.',
-    tags: ['Coordination', 'Strategy', 'Reporting'],
-  },
-  {
-    title: 'Desktop Support Engineer',
-    company: 'DMS Solution',
-    period: 'Jun 2023 — Oct 2023',
-    description: 'Managed IT infrastructure, troubleshooting server issues, and maintaining system health for high-availability systems.',
-    tags: ['Networking', 'Security', 'Support'],
+    title: 'Web & IT Support',
+    company: 'Captain Tractors',
+    period: '6 Months',
+    description: 'Managed and updated company website with regular monitoring and improvements. Supported data management, backups, and internal IT operations to ensure high system availability.',
+    tags: ['Web Maintenance', 'IT Support', 'Data Management'],
   },
 ];
 

@@ -1,7 +1,7 @@
 'use client';
 
 import Section from './Section';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 
 export default function About() {
@@ -18,7 +18,7 @@ export default function About() {
             className="space-y-6"
           >
             <h2 className="text-[10px] md:text-xs font-black tracking-[0.4em] text-primary uppercase">
-              The Journey
+              The Journey of Rajput Bhavin
             </h2>
             <h3 className="text-4xl md:text-8xl font-black text-white leading-[0.9] tracking-tighter">
               BEYOND THE <br />
@@ -33,15 +33,21 @@ export default function About() {
             transition={{ delay: 0.2 }}
             className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-foreground/60 text-lg md:text-xl font-medium leading-relaxed"
           >
-            <p>
-              I am a Full Stack Developer based in India, specializing in high-performance web engineering. 
-              My expertise lies in building scalable architectures using the MERN stack and Next.js.
-            </p>
-            <p>
-              With over 12 months of experience across internships and IT support, 
-              I have delivered 6+ real-world products that solve complex user needs into seamless experiences.
-            </p>
+            <div className="space-y-4">
+              <p>
+                <strong>Rajput Bhavin</strong> is a dedicated Full Stack Developer with an extensive background in crafting high-conversion SaaS platforms. 
+                Based in Ahmedabad, I specialize in the modern MERN stack, delivering scalable solutions with Node.js, Next.js, and specialized Web Automation.
+              </p>
+            </div>
+            <div className="space-y-4">
+              <p>
+                With a focus on performance and SEO best practices, Rajput Bhavin has successfully delivered 
+                8+ real-world applications. My expertise lies in building secure REST APIs, automated workflows, and complex 
+                logic-driven dashboards for global clients.
+              </p>
+            </div>
           </motion.div>
+
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -51,16 +57,16 @@ export default function About() {
             className="grid grid-cols-3 gap-6 md:gap-12 pt-12 border-t border-white/5"
           >
             <div>
-              <h4 className="text-3xl md:text-6xl font-black text-white mb-2 tracking-tighter">6+</h4>
-              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-primary/70">Projects</p>
+              <h4 className="text-3xl md:text-6xl font-black text-white mb-2 tracking-tighter">8+</h4>
+              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-primary/70">SaaS Products</p>
             </div>
             <div>
               <h4 className="text-3xl md:text-6xl font-black text-white mb-2 tracking-tighter">200+</h4>
-              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-secondary/70">Commits</p>
+              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-secondary/70">Deployments</p>
             </div>
             <div>
               <h4 className="text-3xl md:text-6xl font-black text-white mb-2 tracking-tighter">12</h4>
-              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-accent/70">Months Exp</p>
+              <p className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-accent/70">Months Experience</p>
             </div>
           </motion.div>
         </div>
@@ -77,24 +83,26 @@ export default function About() {
               <ArrowUpRight className="w-8 h-8 text-white/10 group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
             </div>
             
-            <h4 className="text-xl md:text-2xl font-black text-white mb-8 border-b border-white/5 pb-4 md:border-none md:pb-0">Education</h4>
+            <h4 className="text-xl md:text-2xl font-black text-white mb-8 border-b border-white/5 pb-4 md:border-none md:pb-0">Developer Background</h4>
             <div className="space-y-8 group-hover:translate-x-1 transition-transform duration-500">
               <div className="relative pl-6 before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-primary">
-                <p className="text-[10px] font-black text-primary uppercase tracking-widest mb-1">2023 — 2026</p>
-                <h5 className="text-base md:text-lg font-bold text-white">BCA in Software Dev</h5>
-                <p className="text-xs md:text-sm text-white/40">Sardar Vallabhbhai Global University</p>
+                <p className="text-[10px] font-black text-primary uppercase tracking-widest mb-1">Developer Education</p>
+                <h5 className="text-base md:text-lg font-bold text-white">BCA Software Engineering</h5>
+                <p className="text-xs md:text-sm text-white/40">Focused on Advanced Logic & Systems</p>
               </div>
               <div className="relative pl-6 before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-secondary">
-                <p className="text-[10px] font-black text-secondary uppercase tracking-widest mb-1">Current Focus</p>
-                <h5 className="text-base md:text-lg font-bold text-white">Advanced Web Engineering</h5>
-                <p className="text-xs md:text-sm text-white/40">Cloud & Full Stack Architecture</p>
+                <p className="text-[10px] font-black text-secondary uppercase tracking-widest mb-1">Ahmedabad Developer Community</p>
+                <h5 className="text-base md:text-lg font-bold text-white">Full Stack Web Architecture</h5>
+                <p className="text-xs md:text-sm text-white/40">SaaS & Automation Expert</p>
               </div>
             </div>
 
             <div className="mt-10 pt-8 border-t border-white/5">
               <p className="text-xs md:text-sm text-white/30 italic leading-relaxed">
-                "Code is not just logic; it is a medium of storytelling through interaction."
+                "Rajput Bhavin believes that high-performance code combined with elite design creates 
+                unbeatable user experiences."
               </p>
+
             </div>
           </motion.div>
         </div>
